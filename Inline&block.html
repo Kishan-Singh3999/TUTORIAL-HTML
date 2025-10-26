@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline & block elements</title>
+
+    <!-- this is internal css  -->
+    <style>
+        /* this is element selector */
+
+        span {
+            border: 2px solid red;
+        }
+        /* this is id selector  */
+        #firstdiv {
+            color: aqua;
+        }
+        /* this is class selector it is multitime use */
+
+        .inline {
+            background-color: yellowgreen;
+        }
+        /* this is grouping selector  */
+        footer,span {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!--span tag is inline elements & div tag is block elements example-->
+    <div id="firstdiv">this is block elements</div>
+    <span id="secondpara" class="inline ">this is inline elements</span>
+    <p id="thirdpara" class="inline">this is also block elements</p>
+
+    <span>
+        this is span tag
+    </span>
+
+    <footer>this is footer tag</footer>
+</body>
+</html>
